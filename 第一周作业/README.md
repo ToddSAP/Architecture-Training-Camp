@@ -1,1 +1,1 @@
-[就餐卡用例图](https://https://github.com/ToddSAP/Architecture-Training-Camp/blob/master/%E7%AC%AC%E4%B8%80%E5%91%A8%E4%BD%9C%E4%B8%9A/%E5%B0%B1%E9%A4%90%E5%8D%A1%E7%B3%BB%E7%BB%9F%E7%94%A8%E4%BE%8B%E5%9B%BE.jpg)
+[就餐卡用例图](https://github.com/ToddSAP/Architecture-Training-Camp/blob/master/%E7%AC%AC%E4%B8%80%E5%91%A8%E4%BD%9C%E4%B8%9A/%E5%B0%B1%E9%A4%90%E5%8D%A1%E7%B3%BB%E7%BB%9F%E7%94%A8%E4%BE%8B%E5%9B%BE.jpg)
