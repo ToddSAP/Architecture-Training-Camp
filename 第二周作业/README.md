@@ -18,3 +18,5 @@
  - 将Cache接口分解为CacheService和CacheManagement两个接口，其中CacheService暴露给应用程序，而CacheManagement暴露给系统管理模块调用。  
  - 在应用程序类中使用CacheService，注入Cache类后，应用程序将仅能看到`get、put`和`delete`方法。  
  - 在系统管理类中使用CacheManagement，注入Cache类后，应用程序将仅能看到`reBuild`方法。    
+ [代码](cache)
+ [类图](接口隔离类图.png)
