@@ -5,8 +5,10 @@
 无论如何，并发压力和系统响应时间一般是成正比的，但程度由系统设计决定。  
 
 ### 作业2. web性能压测工具。  
-
+[WebPerformanceTestingTool](code/WebPerformanceTestingTool.java)   
+[测试入口](code/Testing.java)  
+[测试结果](code/output.md)
 
 
 ### 总结  
-了解一个系统的运行情况必须进行性能测试。
+了解一个系统的运行情况必须进行性能测试。而性能测试主要围绕四大金刚来进行：CPU、内存、IO和网络。  
