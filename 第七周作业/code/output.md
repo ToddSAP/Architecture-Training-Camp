@@ -1198,5 +1198,5 @@ round 0 started!
  Request completed with status [200], and took [20] ms  
  Request completed with status [200], and took [21] ms  
  round 99 ended!  
- final position is 950
+ final position is 950  
  The 95% response time is [47]
