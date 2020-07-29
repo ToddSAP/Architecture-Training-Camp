@@ -12,17 +12,15 @@ public class LinkedListOverlap {
         while (true) {
             if (m == null && n == null) break;
             if (c++%2 == 0) {
-                if (m != null) {
+                if (m != null)
                     if (nodeMap.get(m) != null) return true;
                     else nodeMap.put(m, m);
                     m = m.next;
-                }
             } else {
-                if (n != null) {
+                if (n != null)
                     if (nodeMap.get(n) != null) return true;
                     else nodeMap.put(n, n);
                     n = n.next;
-                }
             }
         }
         return false;
