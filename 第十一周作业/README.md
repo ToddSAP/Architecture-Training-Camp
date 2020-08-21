@@ -3,5 +3,5 @@
 
 
 ## 作业2. 编写一个用户密码验证函数。   
-[函数](password.PasswordValidation.java)  
-[函数入口](password.client.PasswordClient.java)  
+[函数](password/PasswordValidation.java)  
+[函数入口](password/client/PasswordClient.java)  
