@@ -33,7 +33,7 @@ public class RSAStrategy implements PasswordEncryptionStrategy {
             BigInteger m = new BigInteger(passwordText);
             BigInteger c = m.modPow(publicKey.getPublicExponent(), publicKey.getModulus());
             encryptedPassword = c.toString();
-            System.out.println("加密密码："+encryptedPassword);
+            System.out.println("RSA加密密码："+encryptedPassword);
         } catch (UnsupportedEncodingException | KeyException e) {
             e.printStackTrace();
         }
