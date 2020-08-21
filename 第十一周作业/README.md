@@ -3,9 +3,9 @@
 
 
 ## 作业2. 编写一个用户密码验证函数。   
-[函数](password/PasswordValidation.java)  
-[函数入口](password/client/PasswordClient.java)  
-[RSA实现](password/rsa/RSAStrategy.java)
+[校验函数](password/PasswordValidation.java)  
+[测试入口](password/client/PasswordClient.java)  
+[RSA实现](password/rsa/RSAStrategy.java)  
 [MD5实现](password/md5/MD5Strategy.java)  
 测试结果   
 ```java
