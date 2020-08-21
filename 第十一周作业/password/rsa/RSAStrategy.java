@@ -16,7 +16,7 @@ public class RSAStrategy implements PasswordEncryptionStrategy {
         if (publicKey == null || privateKey == null) {
             try {
                 // 为了实现简便，直接每次对key赋值。现实中，需要将key保存在文件中，publicKey传输给加密方，privateKey要自己保存好。
-                RSA.generateKey();
+                generateKey();
             } catch (NoSuchAlgorithmException e) {
                 e.printStackTrace();
             }
@@ -54,13 +54,11 @@ public class RSAStrategy implements PasswordEncryptionStrategy {
         return password;
     }
 
-    private final static class RSA {
-        static void generateKey() throws NoSuchAlgorithmException {
-            KeyPairGenerator generator = KeyPairGenerator.getInstance("RSA");
-            generator.initialize(1024);
-            KeyPair keyPair = generator.generateKeyPair();
-            publicKey = (RSAPublicKey) keyPair.getPublic();
-            privateKey = (RSAPrivateKey) keyPair.getPrivate();
-        }
+    private static void generateKey() throws NoSuchAlgorithmException {
+        KeyPairGenerator generator = KeyPairGenerator.getInstance("RSA");
+        generator.initialize(1024);
+        KeyPair keyPair = generator.generateKeyPair();
+        publicKey = (RSAPublicKey) keyPair.getPublic();
+        privateKey = (RSAPrivateKey) keyPair.getPrivate();
     }
 }
