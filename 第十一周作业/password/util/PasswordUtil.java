@@ -7,4 +7,5 @@ public class PasswordUtil {
     public static String encryptLoginPassword(String userId, String password, PasswordEncryptionStrategy encryption) {
         return encryption.encrypt(userId+password);
     }
+
 }
