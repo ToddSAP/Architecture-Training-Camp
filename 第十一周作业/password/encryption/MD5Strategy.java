@@ -1,4 +1,4 @@
-package password.md5;
+package password.encryption;
 
 import password.PasswordEncryptionStrategy;
 

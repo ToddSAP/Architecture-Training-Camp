@@ -1,4 +1,4 @@
-package password.rsa;
+package password.encryption;
 
 import password.PasswordEncryptionStrategy;
 

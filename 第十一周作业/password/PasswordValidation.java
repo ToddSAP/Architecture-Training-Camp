@@ -1,7 +1,5 @@
 package password;
 
-import password.util.PasswordUtil;
-
 public class PasswordValidation {
     private PasswordEncryptionStrategy encryption;
 
@@ -10,8 +8,7 @@ public class PasswordValidation {
     }
 
     public boolean checkPW (String userId, String password, String encryptedPassword) {
-        return PasswordUtil.encryptLoginPassword(userId, password, encryption).
-                equals(encryptedPassword);
+        return encryption.encrypt(userId+password).equals(encryptedPassword);
     }
 }
 
